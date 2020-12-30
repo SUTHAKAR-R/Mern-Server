@@ -6,7 +6,7 @@ import typeDefs from './graphql/typeDefs.js'
 import resolvers from './graphql/resolvers/index.js'
 import { CONNECTION_URL } from './config.js'
 
-const PORT = process.env.port || 5000
+const PORT = process.env.PORT || 5000
 
 const server = new ApolloServer({
     typeDefs,
